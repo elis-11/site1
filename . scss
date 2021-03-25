@@ -1,0 +1,177 @@
+ .page_elizaArzanukaeva {
+   body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    background-color: rgb(179, 159, 159);
+    }
+    *,
+    *:before,
+    *:after {
+        box-sizing: border-box;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      background: rgb(216, 199, 199);
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+    .important {
+      color: rgb(194, 183, 123);
+      font-style: cursive;
+      font-size: 1.3em;
+    }
+    p {
+      margin: 0;
+    }
+  }
+  .ex002 {
+    .header {
+      width: 100%;
+      text-align: center;
+      height: 100px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+    }
+    .header.fixed {
+      height: auto;
+      position: fixed;
+      background-color: rgb(228, 226, 226);
+      opacity: .5;
+    }
+    .header.fixed .header_inner{
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border-bottom: 0;
+    }
+    .header_inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 35px 0;
+      border-bottom: 5px solid rgb(204, 194, 194);
+    }
+  }
+  .ex003 {
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+  }
+  .ex004 {
+    .nav {
+      display: flex;
+      font-size: 15px;
+      font-weight: 700;
+      text-transform: uppercase;
+      position: fixed;
+      justify-content: center;
+    }
+    .nav_link {
+      margin-left: 50px;
+      color: #110909;
+      text-decoration: none;
+      opacity: .5;
+    }
+    .nav_link:first-child {
+      margin-left: 0; 
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .nav_link:hover {
+      opacity: 1;
+    }  
+  }
+  .ex005 {
+    .intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 750px;
+      padding-top: 100px;
+  
+      background: url("../isolated/webs/htmlBasic/images/head/1.png") center no-repeat;
+      background-size: cover;
+   }
+   .intro_inner {
+       width: 100%;
+       max-width: 970px;
+       margin: 0 auto;
+       text-align: center;
+   }
+   .intro_title {
+       margin: 0 0 30px;
+       font-family: serif;
+       font-size: 65px;
+       line-height: 1.1;
+       font-weight: 700;
+       text-align: center;
+       text-transform: uppercase;
+   }
+   .intro_subtitle {
+       margin-bottom: 60px;
+       font-size: 22px;
+       color: rgb(80, 79, 79);
+       line-height: 1.5;
+       font-weight: 400;
+       text-align: center;
+   }
+  }
+  .ex006 {
+    .btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 40px;
+    border-radius: 3px;
+    font-family: inherit;
+    font-size: 13px;
+    color: #7e7c7c;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background .1s linear;
+    }
+    .btn--red {
+        background-color: rgb(248, 211, 211);
+    }
+    .btn--red:hover {
+        /* background-color: rgb(209, 181, 181); */
+        background-color:rgb(168, 166, 166) ;
+    }
+    .btn--long {
+        min-width: 280px;
+      }
+}
+ .ex007 {
+      .features {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 95px 0;
+    }
+  }
+  .ex008 {
+    .features_item {
+      width: 33%;
+      padding: 0 40px;
+      margin: 25px 0;
+      text-align: center;
+    }
+    .features_icon {
+      margin-bottom: 25px;
+    }
+    .features_title {
+       margin-bottom: 20px;
+       font-style: 14px;
+       font-weight: 700;
+    }
+    .features_text {
+      font-size: 14px;
+    }
