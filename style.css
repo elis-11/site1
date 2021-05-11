@@ -430,17 +430,17 @@ p {
 /* .burger */
 .burger {
     display: none;
+    cursor: pointer;
+
 }
 .burger_item {
     display: block;
     width: 30px;
     height: 3px;
-
+    transition-duration: 0.5s;
     background-color: #fff;
-
     font-size: 0;
     color: transparent;
-
     position: relative;
 }
 .burger_item:before,
@@ -459,9 +459,12 @@ p {
     top: -8px;
 }
 .burger_item:after {
+    cursor: pointer;
     bottom: -8px;
 }
-
+li:hover {
+    cursor: pointer;
+}
 
 /* @Media */
 @media (max-width: 1300px) {
